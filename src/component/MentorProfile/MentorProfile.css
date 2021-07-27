@@ -1,0 +1,3351 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* Navbar */
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo {
+  cursor: pointer;
+  position: relative;
+  right: 940px;
+}
+
+.menu {
+  color: #000000;
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.menu,
+.nav-item,
+.nav-link {
+  color: #180126;
+  background-color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: #072acb;
+}
+
+/* Top Bar */
+.top-bar {
+  position: relative;
+  background-color: #514d57;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  margin-left: 285px;
+  text-indent: 3%;
+  bottom: 10px;
+}
+/* Side Bar */
+
+.side-bar {
+  background-color: #004e89;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 285px;
+  height: 790px;
+  top: 100px;
+}
+
+.side-bar .mentor {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  left: 67px;
+  top: 34px;
+  background-color: #004e89;
+  color: #f9f9f9;
+}
+
+.side-bar .mentor-name {
+  position: absolute;
+  width: 142px;
+  height: 29px;
+  left: 67px;
+  top: 177px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 29px;
+  background-color: #004e89;
+  color: #f9f9f9;
+}
+
+.edit .fa-pen,
+.text {
+  background-color: #004e89;
+  color: #8b8899;
+  width: 17px;
+  padding: 5px;
+}
+
+.edit {
+  position: relative;
+  font-size: 13px;
+  bottom: 45px;
+  right: 10px;
+}
+
+.bio {
+  position: absolute;
+  width: 220px;
+  height: 160px;
+  left: 19px;
+  top: 250px;
+}
+.bio h4 {
+  background-color: #004e89;
+  color: #f9f9f9;
+  font-weight: bold;
+}
+.bio p {
+  background-color: #004e89;
+  color: #f9f9f9;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+}
+
+.courses {
+  background-color: #004e89;
+  position: absolute;
+  width: 250px;
+  left: 19px;
+  top: 445px;
+}
+
+.courses h4 {
+  background-color: #004e89;
+  color: #f9f9f9;
+}
+
+.courses-sub {
+  background-color: #004e89;
+  color: #f82508;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.curriculum {
+  background-color: #004e89;
+}
+
+.curriculum li {
+  background-color: #004e89;
+  color: #f9f9f9;
+  position: relative;
+  width: 245px;
+  left: 20px;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+}
+
+.availability {
+  position: absolute;
+  width: 250px;
+  height: 116px;
+  left: 19px;
+  top: 590px;
+}
+
+.availability h4 {
+  background-color: #004e89;
+  color: #f9f9f9;
+}
+
+.days1 {
+  background-color: #004e89;
+}
+
+.days1 li {
+  background-color: #004e89;
+  color: #f9f9f9;
+  position: relative;
+  width: 245px;
+  left: 20px;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+}
+
+.contact,
+.fa-clock,
+.fa-envelope,
+.message1,
+#a {
+  background-color: #004e89;
+  color: #ffffff;
+}
+
+.message1 {
+  position: relative;
+  top: 3px;
+  font-size: 20px;
+}
+
+.contact {
+  position: relative;
+  top: 211px;
+  font-size: 20px;
+  right: 10px;
+}
+
+.mentor-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #004e89;
+  width: 100px;
+}
+
+/* Middle Section */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Mentor Dashboard */
+
+.primary-btn {
+  position: relative;
+  background: #f82508;
+  width: 197px;
+  height: 40px;
+  left: 22px;
+  bottom: 50px;
+  font-size: 13px;
+}
+button {
+  background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+  border-radius: 4px;
+  border: 1px solid;
+  cursor: pointer;
+  color: #ffffff;
+  display: inline;
+  text-align: center;
+  font-weight: bold;
+  width: 197px;
+  height: 40px;
+}
+
+.mentor-dashboard {
+  background: #eeeeee;
+  position: relative;
+  border-style: none;
+  width: 287px;
+  height: 600px;
+  top: 50px;
+  left: 285px;
+}
+
+.schedule-icons {
+  background: #eeeeee;
+  bottom: 25px;
+  font-size: 24px;
+  left: 17px;
+}
+
+.calendar-icon {
+  position: absolute;
+  background: #eeeeee;
+  font-size: 24px;
+  left: 20px;
+  top: 10px;
+}
+
+.calendar-icon p {
+  background-color: #eeeeee;
+}
+
+.schedule-text {
+  position: relative;
+  background: #eeeeee;
+  font-size: 16px;
+  font-weight: bold;
+  left: 25px;
+  bottom: 29px;
+}
+
+.edit-icon {
+  position: absolute;
+  background: #eeeeee;
+  font-size: 13px;
+  color: #8b8899;
+  left: 225px;
+  top: 5px;
+}
+
+.edit-icon .fa-pen {
+  position: absolute;
+  background: #eeeeee;
+  width: 29px;
+  right: 5px;
+  top: 16px;
+}
+
+.edit-icon p {
+  position: relative;
+  background: #eeeeee;
+  right: 5px;
+}
+
+.edit-text {
+  position: relative;
+  width: 50px;
+  background: #eeeeee;
+  left: 10px;
+  top: 15px;
+}
+
+.calendar {
+  position: absolute;
+  background-color: #eeeeee;
+  width: 150px;
+  height: 546px;
+  left: 70px;
+  top: 42px;
+}
+
+.days {
+  background-color: #eeeeee;
+  width: 100%;
+}
+
+.month {
+  background-color: #eeeeee;
+  width: 100%;
+}
+
+.month img,
+.days img {
+  position: relative;
+  color: #f9f9f9;
+  width: 240px;
+  right: 50px;
+}
+.month img {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  width: 240px;
+}
+.days img {
+  position: relative;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  bottom: 5px;
+}
+
+.student-title {
+  background: #eeeeee;
+  position: absolute;
+  top: 355px;
+  left: 17px;
+}
+
+.student-title img {
+  background: #eeeeee;
+  font-size: 20px;
+}
+
+.student-messages {
+  background: #eeeeee;
+  position: relative;
+  left: 3px;
+  bottom: 6px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.dashboard-student {
+  position: absolute;
+  background: #ffffff;
+  border: solid;
+  border-radius: 5px;
+  border-style: none;
+  width: 245px;
+  height: 147px;
+  left: 17px;
+  top: 385px;
+}
+
+.student-info1 {
+  position: absolute;
+  flex-direction: column;
+  left: 90px;
+  top: 20px;
+}
+
+.dashboard-student img {
+  position: relative;
+  width: 70px;
+  left: 13px;
+  top: 12px;
+}
+
+.info1 span {
+  color: #f82508;
+}
+
+.dashboard-student h4 {
+  position: relative;
+  font-size: 15px;
+  bottom: 8px;
+}
+
+.dashboard-student .info1 {
+  position: relative;
+  font-size: 12px;
+  color: #180126;
+  bottom: 2px;
+}
+
+.reply {
+  background: #ffffff;
+  color: #514d57;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 12px;
+  width: 58px;
+  top: 38px;
+}
+
+.reply .fa-reply {
+  position: relative;
+  font-size: 16px;
+  bottom: 2px;
+}
+
+.reply .fa-clock {
+  position: relative;
+  background: #ffffff;
+  color: #514d57;
+  font-size: 14px;
+  bottom: 1px;
+}
+
+.reply-message {
+  position: absolute;
+  align-content: space-between;
+  color: #514d57;
+  width: 230px;
+  font-size: 13px;
+  line-height: 18px;
+  top: 470px;
+  left: 25px;
+}
+
+/* Students who need */
+
+.need {
+  position: absolute;
+  height: 598px;
+  right: 1355px;
+}
+
+.middle {
+  position: absolute;
+  background-color: #eeeeee;
+  width: 450px;
+  height: 598px;
+  top: 50px;
+  left: 150px;
+}
+
+.card1 {
+  position: relative;
+  background: #ffffff;
+  border: black;
+  border-radius: 8px;
+  width: 401px;
+  height: 250px;
+  left: 24px;
+  top: 15px;
+}
+
+.card1 img {
+  position: relative;
+  width: 70px;
+  left: 16px;
+  top: 12px;
+}
+
+.card1-info {
+  position: absolute;
+  left: 95px;
+  top: 25px;
+}
+.card1-info h4 {
+  position: relative;
+  bottom: 5px;
+  font-size: 16px;
+}
+
+.card1-info p {
+  font-size: 13px;
+}
+
+.card1-info span {
+  color: #f82508;
+}
+
+.card1-title h5 {
+  position: absolute;
+  color: #f82508;
+  width: 367px;
+  height: 22px;
+  font-size: 16px;
+  line-height: 22px;
+  left: 19px;
+  top: 85px;
+}
+
+.card1-title span {
+  position: relative;
+  color: #180126;
+}
+
+.card1-message {
+  position: absolute;
+  background: #c3c7d2;
+  border-radius: 8px;
+  width: 367px;
+  height: 122px;
+  left: 16px;
+  top: 110px;
+}
+
+.card1-message p {
+  background: #c3c7d2;
+}
+
+.card1-reply {
+  background: #c3c7d2;
+}
+
+.card1-text {
+  position: relative;
+  background: #c3c7d2;
+  color: #514d57;
+  width: 342px;
+  height: 81px;
+  left: 10px;
+  top: 5px;
+  font-size: 13px;
+  line-height: 18px;
+  initial-letter: -0.02em;
+}
+
+.card1-reply i {
+  position: relative;
+  display: inline-block;
+  background: #c3c7d2;
+  color: #514d57;
+  width: 25px;
+  font-size: 16px;
+  top: 16px;
+  left: 285px;
+}
+
+/* Card2 */
+
+.primary-btn2 {
+  position: absolute;
+  font-size: 13px;
+  height: 40px;
+  width: 213px;
+  left: 255px;
+}
+.card2 {
+  position: relative;
+  background: #ffffff;
+  border-radius: 8px;
+  width: 401px;
+  height: 250px;
+  left: 24px;
+  top: 40px;
+}
+
+.card2 img {
+  position: relative;
+  width: 70px;
+  left: 16px;
+  top: 12px;
+}
+
+.card2-info {
+  position: absolute;
+  left: 95px;
+  top: 25px;
+}
+.card2-info h4 {
+  position: relative;
+  bottom: 5px;
+  font-size: 16px;
+}
+
+.card2-info p {
+  font-size: 13px;
+}
+
+.card2-info span {
+  color: #f82508;
+}
+
+.card2-title h5 {
+  position: absolute;
+  color: #f82508;
+  width: 367px;
+  height: 22px;
+  font-size: 16px;
+  line-height: 22px;
+  left: 19px;
+  top: 85px;
+}
+
+.card2-title span {
+  position: relative;
+  color: #180126;
+}
+
+.card2-message {
+  position: absolute;
+  background: #c3c7d2;
+  border-radius: 8px;
+  width: 367px;
+  height: 122px;
+  left: 16px;
+  top: 110px;
+}
+
+.card2-message p {
+  background: #c3c7d2;
+}
+
+.card2-text {
+  position: relative;
+  background: #c3c7d2;
+  color: #514d57;
+  width: 342px;
+  height: 81px;
+  left: 10px;
+  top: 5px;
+  font-size: 13px;
+  line-height: 18px;
+  initial-letter: -0.02em;
+}
+
+.card2-reply i {
+  position: relative;
+  display: inline-block;
+  background: #c3c7d2;
+  color: #514d57;
+  width: 25px;
+  font-size: 16px;
+  top: 133px;
+  left: 300px;
+}
+
+/* Students you have helped */
+
+.have {
+  position: absolute;
+  width: 450px;
+  height: 605px;
+  top: 195px;
+  left: 1300px;
+}
+
+.primary-btn3 {
+  position: relative;
+  background-color: #004e89;
+  font-size: 13px;
+  width: 197px;
+  height: 40px;
+  bottom: 47px;
+  left: 120px;
+}
+
+.last-section {
+  position: relative;
+  background-color: #eeeeee;
+  width: 455px;
+  height: 593px;
+  bottom: 37px;
+}
+
+/* Card 3 */
+
+.card3 {
+  position: absolute;
+  background: #ffffff;
+  border-radius: 8px;
+  width: 401px;
+  height: 100px;
+  left: 27px;
+  top: 6px;
+}
+
+.student3 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 14px;
+  top: 9px;
+}
+
+.card3-info {
+  position: absolute;
+  width: 280px;
+  height: 48px;
+  left: 95px;
+  top: 8px;
+  font-size: 13px;
+}
+
+.card3-info h4 {
+  font-size: 14px;
+}
+
+.card3-info span {
+  color: #f82508;
+}
+
+.card3-icons {
+  color: #8b8899;
+  position: absolute;
+  display: inline-block;
+  width: 240px;
+  top: 60px;
+  left: 100px;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+}
+
+.card3-icons .fa-envelope {
+  position: relative;
+  color: #8b8899;
+  background: #ffffff;
+  font-size: 18px;
+  left: 10px;
+  top: 2px;
+}
+.card3-icons span {
+  position: relative;
+  font-size: 13px;
+  left: 11px;
+}
+
+.card3-icons .notes {
+  position: relative;
+  top: 5px;
+}
+
+.card3-icons .message {
+  position: relative;
+  width: 18px;
+  left: 20px;
+  top: 5px;
+}
+
+.card3-icons .card3-text {
+  position: relative;
+  left: 20px;
+  top: -1px;
+  font-size: 13px;
+}
+
+/* Card4 */
+
+.card4 {
+  position: absolute;
+  background: #ffffff;
+  border-radius: 8px;
+  width: 401px;
+  height: 100px;
+  left: 27px;
+  top: 125px;
+}
+
+.student4 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 14px;
+  top: 9px;
+}
+
+.card4-info {
+  position: absolute;
+  width: 280px;
+  height: 48px;
+  left: 95px;
+  top: 8px;
+  font-size: 13px;
+}
+
+.card4-info h4 {
+  font-size: 14px;
+}
+
+.card4-info span {
+  color: #f82508;
+}
+
+.card4-icons {
+  color: #8b8899;
+  position: absolute;
+  display: inline-block;
+  width: 240px;
+  top: 60px;
+  left: 100px;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+}
+
+.card4-icons .fa-envelope {
+  position: relative;
+  color: #8b8899;
+  background: #ffffff;
+  font-size: 18px;
+  left: 10px;
+  top: 2px;
+}
+.card4-icons span {
+  position: relative;
+  font-size: 13px;
+  left: 11px;
+}
+
+.card4-icons .notes {
+  position: relative;
+  top: 5px;
+}
+
+.card4-icons .message {
+  position: relative;
+  width: 18px;
+  left: 20px;
+  top: 5px;
+}
+
+.card4-icons .card4-text {
+  position: relative;
+  left: 20px;
+  top: -1px;
+  font-size: 13px;
+}
+
+/* Card 5 */
+
+.card5 {
+  position: absolute;
+  background: #ffffff;
+  border-radius: 8px;
+  width: 401px;
+  height: 100px;
+  left: 27px;
+  top: 245px;
+}
+
+.student5 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 14px;
+  top: 9px;
+}
+
+.card5-info {
+  position: absolute;
+  width: 280px;
+  height: 48px;
+  left: 95px;
+  top: 8px;
+  font-size: 13px;
+}
+
+.card5-info h4 {
+  font-size: 14px;
+}
+
+.card5-info span {
+  color: #f82508;
+}
+
+.card5-icons {
+  color: #8b8899;
+  position: absolute;
+  display: inline-block;
+  width: 240px;
+  top: 60px;
+  left: 100px;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+}
+
+.card5-icons .fa-envelope {
+  position: relative;
+  color: #8b8899;
+  background: #ffffff;
+  font-size: 18px;
+  left: 10px;
+  top: 2px;
+}
+.card5-icons span {
+  position: relative;
+  font-size: 13px;
+  left: 11px;
+}
+
+.card5-icons .notes {
+  position: relative;
+  top: 5px;
+}
+
+.card5-icons .message {
+  position: relative;
+  width: 18px;
+  left: 20px;
+  top: 5px;
+}
+
+.card5-icons .card5-text {
+  position: relative;
+  left: 20px;
+  top: -1px;
+  font-size: 13px;
+}
+
+/* Card 6 */
+
+.card6 {
+  position: absolute;
+  background: #ffffff;
+  border-radius: 8px;
+  width: 401px;
+  height: 100px;
+  left: 27px;
+  top: 365px;
+}
+
+.student6 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 14px;
+  top: 9px;
+}
+
+.card6-info {
+  position: absolute;
+  width: 280px;
+  height: 48px;
+  left: 95px;
+  top: 8px;
+  font-size: 13px;
+}
+
+.card6-info h4 {
+  font-size: 14px;
+}
+
+.card6-info span {
+  color: #f82508;
+}
+
+.card6-icons {
+  color: #8b8899;
+  position: absolute;
+  display: inline-block;
+  width: 240px;
+  top: 60px;
+  left: 100px;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+}
+
+.card6-icons .fa-envelope {
+  position: relative;
+  color: #8b8899;
+  background: #ffffff;
+  font-size: 18px;
+  left: 10px;
+  top: 2px;
+}
+.card6-icons span {
+  position: relative;
+  font-size: 13px;
+  left: 11px;
+}
+
+.card6-icons .notes {
+  position: relative;
+  top: 5px;
+}
+
+.card6-icons .message {
+  position: relative;
+  width: 18px;
+  left: 20px;
+  top: 5px;
+}
+
+.card6-icons .card6-text {
+  position: relative;
+  left: 20px;
+  top: -1px;
+  font-size: 13px;
+}
+
+/* Card 7 */
+
+.card7 {
+  position: absolute;
+  background: #ffffff;
+  border-radius: 8px;
+  width: 401px;
+  height: 100px;
+  left: 27px;
+  top: 485px;
+}
+
+.student7 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 14px;
+  top: 9px;
+}
+
+.card7-info {
+  position: absolute;
+  width: 280px;
+  height: 48px;
+  left: 95px;
+  top: 8px;
+  font-size: 13px;
+}
+
+.card7-info h4 {
+  font-size: 14px;
+}
+
+.card7-info span {
+  color: #f82508;
+}
+
+.card7-icons {
+  color: #8b8899;
+  position: absolute;
+  display: inline-block;
+  width: 240px;
+  top: 60px;
+  left: 100px;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+}
+
+.card7-icons .fa-envelope {
+  position: relative;
+  color: #8b8899;
+  background: #ffffff;
+  font-size: 18px;
+  left: 10px;
+  top: 2px;
+}
+.card7-icons span {
+  position: relative;
+  font-size: 13px;
+  left: 11px;
+}
+
+.card7-icons .notes {
+  position: relative;
+  top: 5px;
+}
+
+.card7-icons .message {
+  position: relative;
+  width: 18px;
+  left: 20px;
+  top: 5px;
+}
+
+.card7-icons .card7-text {
+  position: relative;
+  left: 20px;
+  top: -1px;
+  font-size: 13px;
+}
+
+/*Media queries  */
+
+@media only screen and (max-width: 688px) {
+  body {
+    font-family: "Open Sans", sans-serif;
+  }
+  /* Navbar */
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    cursor: pointer;
+    position: relative;
+    left: 80px;
+    bottom: 25px;
+  }
+
+  .menu {
+    color: #000000;
+    list-style: none;
+  }
+
+  .menu li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  .menu,
+  .nav-item,
+  .nav-link {
+    color: #180126;
+    position: relative;
+    background-color: #ffffff;
+    display: flex;
+    width: 100px;
+    top: 7px;
+    right: 100px;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+  }
+
+  .menu li a:hover {
+    color: #072acb;
+  }
+
+  /* Top Bar */
+  .top-bar {
+    position: relative;
+    width: 106%;
+    height: 100%;
+    background-color: #514d57;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    right: 285px;
+    text-indent: 40%;
+  }
+  /* Side Bar */
+
+  .side-bar {
+    background-color: #004e89;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 360px;
+    height: 790px;
+    top: -10px;
+    left: 332px;
+  }
+
+  .side-bar .mentor {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 105px;
+    top: 25px;
+    background-color: #004e89;
+    color: #f9f9f9;
+  }
+
+  .side-bar .mentor-name {
+    position: absolute;
+    width: 142px;
+    height: 29px;
+    left: 110px;
+    top: 177px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 29px;
+    background-color: #004e89;
+    color: #f9f9f9;
+  }
+
+  .edit .fa-pen,
+  .text {
+    background-color: #004e89;
+    color: #8b8899;
+    width: 17px;
+    padding: 5px;
+  }
+
+  .edit {
+    position: relative;
+    font-size: 13px;
+    bottom: 45px;
+    right: 5px;
+  }
+
+  .bio {
+    position: absolute;
+    width: 220px;
+    height: 160px;
+    left: 19px;
+    top: 250px;
+  }
+  .bio h4 {
+    background-color: #004e89;
+    color: #f9f9f9;
+    font-weight: bold;
+  }
+  .bio p {
+    background-color: #004e89;
+    color: #f9f9f9;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+  }
+
+  .courses {
+    background-color: #004e89;
+    position: absolute;
+    width: 250px;
+    left: 19px;
+    top: 445px;
+  }
+
+  .courses h4 {
+    background-color: #004e89;
+    color: #f9f9f9;
+  }
+
+  .courses-sub {
+    background-color: #004e89;
+    color: #f82508;
+    font-weight: normal;
+    font-size: 13px;
+  }
+
+  .curriculum {
+    background-color: #004e89;
+  }
+
+  .curriculum li {
+    background-color: #004e89;
+    color: #f9f9f9;
+    position: relative;
+    width: 245px;
+    left: 20px;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+  }
+
+  .availability {
+    position: absolute;
+    width: 250px;
+    height: 116px;
+    left: 19px;
+    top: 590px;
+  }
+
+  .availability h4 {
+    background-color: #004e89;
+    color: #f9f9f9;
+  }
+
+  .days1 {
+    background-color: #004e89;
+  }
+
+  .days1 li {
+    background-color: #004e89;
+    color: #f9f9f9;
+    position: relative;
+    width: 245px;
+    left: 20px;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+  }
+
+  .contact,
+  .fa-clock,
+  .fa-envelope,
+  .message1,
+  #a {
+    background-color: #004e89;
+    color: #ffffff;
+  }
+
+  .message1 {
+    position: relative;
+    top: 3px;
+    font-size: 20px;
+  }
+
+  .contact {
+    position: relative;
+    top: 211px;
+    font-size: 20px;
+    right: 10px;
+  }
+
+  .mentor-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #004e89;
+    width: 100px;
+  }
+
+  /* Middle Section */
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  /* Mentor Dashboard */
+
+  .primary-btn {
+    position: relative;
+    background: #f82508;
+    width: 197px;
+    height: 40px;
+    left: 22px;
+    bottom: 50px;
+    font-size: 13px;
+  }
+  button {
+    background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+    border-radius: 4px;
+    border: 1px solid;
+    cursor: pointer;
+    color: #ffffff;
+    display: inline;
+    text-align: center;
+    font-weight: bold;
+    width: 197px;
+    height: 40px;
+  }
+
+  .mentor-dashboard {
+    background: #eeeeee;
+    position: relative;
+    border-style: none;
+    width: 287px;
+    height: 600px;
+    top: 50px;
+    left: 285px;
+  }
+
+  .schedule-icons {
+    background: #eeeeee;
+    bottom: 25px;
+    font-size: 24px;
+    left: 17px;
+  }
+
+  .calendar-icon {
+    position: absolute;
+    background: #eeeeee;
+    font-size: 24px;
+    left: 20px;
+    top: 10px;
+  }
+
+  .calendar-icon p {
+    background-color: #eeeeee;
+  }
+
+  .schedule-text {
+    position: relative;
+    background: #eeeeee;
+    font-size: 16px;
+    font-weight: bold;
+    left: 25px;
+    bottom: 29px;
+  }
+
+  .edit-icon {
+    position: absolute;
+    background: #eeeeee;
+    font-size: 13px;
+    color: #8b8899;
+    left: 225px;
+    top: 5px;
+  }
+
+  .edit-icon .fa-pen {
+    position: absolute;
+    background: #eeeeee;
+    width: 29px;
+    right: 5px;
+    top: 16px;
+  }
+
+  .edit-icon p {
+    position: relative;
+    background: #eeeeee;
+    right: 5px;
+  }
+
+  .edit-text {
+    position: relative;
+    width: 50px;
+    background: #eeeeee;
+    left: 10px;
+    top: 15px;
+  }
+
+  .calendar {
+    position: absolute;
+    background-color: #eeeeee;
+    width: 150px;
+    height: 546px;
+    left: 70px;
+    top: 42px;
+  }
+
+  .days {
+    background-color: #eeeeee;
+    width: 100%;
+  }
+
+  .month {
+    background-color: #eeeeee;
+    width: 100%;
+  }
+
+  .month img,
+  .days img {
+    position: relative;
+    color: #f9f9f9;
+    width: 240px;
+    right: 50px;
+  }
+  .month img {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    width: 240px;
+  }
+  .days img {
+    position: relative;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    bottom: 5px;
+  }
+
+  .student-title {
+    background: #eeeeee;
+    position: absolute;
+    top: 355px;
+    left: 17px;
+  }
+
+  .student-title img {
+    background: #eeeeee;
+    font-size: 20px;
+  }
+
+  .student-messages {
+    background: #eeeeee;
+    position: relative;
+    left: 3px;
+    bottom: 6px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .dashboard-student {
+    position: absolute;
+    background: #ffffff;
+    border: solid;
+    border-radius: 5px;
+    border-style: none;
+    width: 245px;
+    height: 147px;
+    left: 17px;
+    top: 385px;
+  }
+
+  .student-info1 {
+    position: absolute;
+    flex-direction: column;
+    left: 90px;
+    top: 20px;
+  }
+
+  .dashboard-student img {
+    position: relative;
+    width: 70px;
+    left: 13px;
+    top: 12px;
+  }
+
+  .info1 span {
+    color: #f82508;
+  }
+
+  .dashboard-student h4 {
+    position: relative;
+    font-size: 15px;
+    bottom: 8px;
+  }
+
+  .dashboard-student .info1 {
+    position: relative;
+    font-size: 12px;
+    color: #180126;
+    bottom: 2px;
+  }
+
+  .reply {
+    background: #ffffff;
+    color: #514d57;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 12px;
+    width: 58px;
+    top: 38px;
+  }
+
+  .reply .fa-reply {
+    position: relative;
+    font-size: 16px;
+    bottom: 2px;
+  }
+
+  .reply .fa-clock {
+    position: relative;
+    background: #ffffff;
+    color: #514d57;
+    font-size: 14px;
+    bottom: 1px;
+  }
+
+  .reply-message {
+    position: absolute;
+    align-content: space-between;
+    color: #514d57;
+    width: 230px;
+    font-size: 13px;
+    line-height: 18px;
+    top: 470px;
+    left: 25px;
+  }
+
+  /* Students who need */
+
+  .need {
+    position: absolute;
+    height: 598px;
+    right: 670px;
+    top: 1550px;
+  }
+
+  .middle {
+    position: absolute;
+    background-color: #eeeeee;
+    width: 360px;
+    height: 620px;
+    top: 50px;
+    left: 150px;
+  }
+
+  .card1 {
+    position: relative;
+    background: #ffffff;
+    border-radius: 8px;
+    width: 320px;
+    height: 280px;
+    left: 20px;
+    top: 15px;
+  }
+
+  .card1 img {
+    position: relative;
+    width: 70px;
+    left: 15px;
+    top: 12px;
+  }
+
+  .card1-info {
+    position: absolute;
+    left: 90px;
+    top: 35px;
+  }
+  .card1-info h4 {
+    position: relative;
+    bottom: 5px;
+    font-size: 16px;
+  }
+
+  .card1-info p {
+    font-size: 13px;
+  }
+
+  .card1-info span {
+    color: #f82508;
+  }
+
+  .card1-title h5 {
+    position: absolute;
+    color: #f82508;
+    width: 220px;
+    height: 22px;
+    font-size: 16px;
+    line-height: 22px;
+    left: 50px;
+    top: 85px;
+  }
+
+  .card1-title span {
+    position: relative;
+    color: #180126;
+  }
+
+  .card1-message {
+    position: absolute;
+    background: #c3c7d2;
+    border-radius: 8px;
+    width: 300px;
+    height: 150px;
+    left: 10px;
+    top: 110px;
+  }
+
+  .card1-message p {
+    background: #c3c7d2;
+  }
+
+  .card1-reply {
+    background: #c3c7d2;
+  }
+
+  .card1-text {
+    position: relative;
+    background: #c3c7d2;
+    color: #514d57;
+    width: 263px;
+    height: 81px;
+    left: 10px;
+    font-size: 13px;
+    line-height: 18px;
+    initial-letter: -0.02em;
+    top: 5px;
+  }
+
+  .card1-reply i {
+    position: relative;
+    display: inline-block;
+    background: #c3c7d2;
+    color: #514d57;
+    width: 25px;
+    font-size: 16px;
+    left: 210px;
+    top: 40px;
+  }
+
+  /* Card2 */
+
+  .primary-btn2 {
+    position: absolute;
+    font-size: 13px;
+    height: 40px;
+    width: 213px;
+    left: 220px;
+  }
+  .card2 {
+    position: relative;
+    background: #ffffff;
+    border-radius: 8px;
+    width: 320px;
+    height: 280px;
+    left: 20px;
+    top: 40px;
+  }
+
+  .card2 img {
+    position: relative;
+    width: 70px;
+    left: 15px;
+    top: 12px;
+  }
+
+  .card2-info {
+    position: absolute;
+    left: 90px;
+    top: 35px;
+  }
+  .card2-info h4 {
+    position: relative;
+    bottom: 5px;
+    font-size: 16px;
+  }
+
+  .card2-info p {
+    font-size: 13px;
+  }
+
+  .card2-info span {
+    color: #f82508;
+  }
+
+  .card2-title h5 {
+    position: absolute;
+    color: #f82508;
+    width: 220px;
+    height: 22px;
+    font-size: 16px;
+    line-height: 22px;
+    left: 50px;
+    top: 85px;
+  }
+
+  .card2-title span {
+    position: relative;
+    color: #180126;
+  }
+
+  .card2-message {
+    position: absolute;
+    background: #c3c7d2;
+    border-radius: 8px;
+    width: 300px;
+    height: 150px;
+    left: 10px;
+    top: 110px;
+  }
+
+  .card2-message p {
+    background: #c3c7d2;
+  }
+
+  .card2-text {
+    position: relative;
+    background: #c3c7d2;
+    color: #514d57;
+    width: 263px;
+    height: 81px;
+    left: 10px;
+    font-size: 13px;
+    line-height: 18px;
+    initial-letter: -0.02em;
+    top: 5px;
+  }
+
+  .card2-reply i {
+    position: relative;
+    display: inline-block;
+    background: #c3c7d2;
+    color: #514d57;
+    width: 25px;
+    font-size: 16px;
+    left: 220px;
+    top: 158px;
+  }
+
+  /* Students you have helped */
+
+  .have {
+    position: absolute;
+    width: 444px;
+    height: 605px;
+    top: 2277px;
+    left: 170px;
+  }
+
+  .primary-btn3 {
+    position: relative;
+    background-color: #004e89;
+    font-size: 13px;
+    width: 197px;
+    height: 40px;
+    bottom: 47px;
+    left: 80px;
+  }
+
+  .last-section {
+    position: relative;
+    background-color: #eeeeee;
+    width: 360px;
+    height: 593px;
+    bottom: 37px;
+  }
+
+  /* Card 3 */
+
+  .card3 {
+    position: absolute;
+    background: #ffffff;
+    border-radius: 8px;
+    width: 330px;
+    height: 100px;
+    left: 15px;
+    top: 6px;
+  }
+
+  .student3 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 5px;
+    top: 9px;
+  }
+
+  .card3-info {
+    position: absolute;
+    width: 250px;
+    height: 48px;
+    left: 80px;
+    font-size: 11px;
+    line-height: -0.02;
+    top: 8px;
+  }
+
+  .card3-info h4 {
+    font-size: 14px;
+  }
+
+  .card3-info span {
+    color: #f82508;
+  }
+
+  .card3-icons {
+    color: #8b8899;
+    position: absolute;
+    display: inline-block;
+    width: 240px;
+    top: 60px;
+    left: 80px;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+  }
+
+  .card3-icons .fa-envelope {
+    position: relative;
+    color: #8b8899;
+    background: #ffffff;
+    font-size: 18px;
+    left: 10px;
+    top: 2px;
+  }
+  .card3-icons span {
+    position: relative;
+    font-size: 13px;
+    left: 11px;
+  }
+
+  .card3-icons .notes {
+    position: relative;
+    top: 5px;
+  }
+
+  .card3-icons .message {
+    position: relative;
+    width: 18px;
+    left: 20px;
+    top: 5px;
+  }
+
+  .card3-icons .card3-text {
+    position: relative;
+    left: 20px;
+    top: -1px;
+    font-size: 13px;
+  }
+
+  /* Card4 */
+
+  .card4 {
+    position: absolute;
+    background: #ffffff;
+    border-radius: 8px;
+    width: 330px;
+    height: 100px;
+    left: 15px;
+    top: 125px;
+  }
+
+  .student4 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 5px;
+    top: 9px;
+  }
+
+  .card4-info {
+    position: absolute;
+    width: 250px;
+    height: 48px;
+    left: 80px;
+    font-size: 11px;
+  }
+
+  .card4-info h4 {
+    font-size: 14px;
+  }
+
+  .card4-info span {
+    color: #f82508;
+  }
+
+  .card4-icons {
+    color: #8b8899;
+    position: absolute;
+    display: inline-block;
+    width: 240px;
+    top: 60px;
+    left: 80px;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+  }
+
+  .card4-icons .fa-envelope {
+    position: relative;
+    color: #8b8899;
+    background: #ffffff;
+    font-size: 18px;
+    left: 10px;
+    top: 2px;
+  }
+  .card4-icons span {
+    position: relative;
+    font-size: 13px;
+    left: 11px;
+  }
+
+  .card4-icons .notes {
+    position: relative;
+    top: 5px;
+  }
+
+  .card4-icons .message {
+    position: relative;
+    width: 18px;
+    left: 20px;
+    top: 5px;
+  }
+
+  .card4-icons .card4-text {
+    position: relative;
+    left: 20px;
+    top: -1px;
+    font-size: 13px;
+  }
+
+  /* Card 5 */
+
+  .card5 {
+    position: absolute;
+    background: #ffffff;
+    border-radius: 8px;
+    width: 330px;
+    height: 100px;
+    left: 15px;
+    top: 245px;
+  }
+
+  .student5 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 5px;
+    top: 9px;
+  }
+
+  .card5-info {
+    position: absolute;
+    width: 250px;
+    height: 48px;
+    left: 80px;
+    font-size: 11px;
+    top: 8px;
+  }
+
+  .card5-info h4 {
+    font-size: 14px;
+  }
+
+  .card5-info span {
+    color: #f82508;
+  }
+
+  .card5-icons {
+    color: #8b8899;
+    position: absolute;
+    display: inline-block;
+    width: 240px;
+    top: 60px;
+    left: 80px;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+  }
+
+  .card5-icons .fa-envelope {
+    position: relative;
+    color: #8b8899;
+    background: #ffffff;
+    font-size: 18px;
+    left: 10px;
+    top: 2px;
+  }
+  .card5-icons span {
+    position: relative;
+    font-size: 13px;
+    left: 11px;
+  }
+
+  .card5-icons .notes {
+    position: relative;
+    top: 5px;
+  }
+
+  .card5-icons .message {
+    position: relative;
+    width: 18px;
+    left: 20px;
+    top: 5px;
+  }
+
+  .card5-icons .card5-text {
+    position: relative;
+    left: 20px;
+    top: -1px;
+    font-size: 13px;
+  }
+
+  /* Card 6 */
+
+  .card6 {
+    position: absolute;
+    background: #ffffff;
+    border-radius: 8px;
+    width: 330px;
+    height: 100px;
+    left: 15px;
+    top: 365px;
+  }
+
+  .student6 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 5px;
+    top: 9px;
+  }
+
+  .card6-info {
+    position: absolute;
+    width: 250px;
+    height: 48px;
+    left: 80px;
+    font-size: 11px;
+    top: 8px;
+  }
+
+  .card6-info h4 {
+    font-size: 14px;
+  }
+
+  .card6-info span {
+    color: #f82508;
+  }
+
+  .card6-icons {
+    color: #8b8899;
+    position: absolute;
+    display: inline-block;
+    width: 240px;
+    top: 60px;
+    left: 80px;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+  }
+
+  .card6-icons .fa-envelope {
+    position: relative;
+    color: #8b8899;
+    background: #ffffff;
+    font-size: 18px;
+    left: 10px;
+    top: 2px;
+  }
+  .card5-icons span {
+    position: relative;
+    font-size: 13px;
+    left: 11px;
+  }
+
+  .card6-icons .notes {
+    position: relative;
+    top: 5px;
+  }
+
+  .card6-icons .message {
+    position: relative;
+    width: 18px;
+    left: 20px;
+    top: 5px;
+  }
+
+  .card6-icons .card6-text {
+    position: relative;
+    left: 20px;
+    top: -1px;
+    font-size: 13px;
+  }
+
+  /* Card 7 */
+
+  .card7 {
+    position: absolute;
+    background: #ffffff;
+    border-radius: 8px;
+    width: 330px;
+    height: 100px;
+    left: 15px;
+    top: 485px;
+  }
+
+  .student7 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 5px;
+    top: 9px;
+  }
+
+  .card7-info {
+    position: absolute;
+    width: 250px;
+    height: 48px;
+    left: 80px;
+    font-size: 11px;
+    top: 8px;
+  }
+
+  .card7-info h4 {
+    font-size: 14px;
+  }
+
+  .card7-info span {
+    color: #f82508;
+  }
+
+  .card7-icons {
+    color: #8b8899;
+    position: absolute;
+    display: inline-block;
+    width: 240px;
+    top: 60px;
+    left: 80px;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+  }
+
+  .card7-icons .fa-envelope {
+    position: relative;
+    color: #8b8899;
+    background: #ffffff;
+    font-size: 18px;
+    left: 10px;
+    top: 2px;
+  }
+  .card7-icons span {
+    position: relative;
+    font-size: 13px;
+    left: 11px;
+  }
+
+  .card7-icons .notes {
+    position: relative;
+    top: 5px;
+  }
+
+  .card7-icons .message {
+    position: relative;
+    width: 18px;
+    left: 20px;
+    top: 5px;
+  }
+
+  .card7-icons .card7-text {
+    position: relative;
+    left: 20px;
+    top: -1px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 1324px) {
+  body {
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+  }
+  /* Navbar */
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    cursor: pointer;
+    position: relative;
+    left: 80px;
+    bottom: 25px;
+  }
+
+  .menu {
+    color: #000000;
+    list-style: none;
+  }
+
+  .menu li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  .menu,
+  .nav-item,
+  .nav-link {
+    color: #180126;
+    position: relative;
+    background-color: #ffffff;
+    display: flex;
+    width: 150px;
+    top: 7px;
+    right: 125px;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .menu li a:hover {
+    color: #072acb;
+  }
+
+  /* Top Bar */
+  .top-bar {
+    position: relative;
+    width: 106%;
+    height: 100%;
+    background-color: #514d57;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    right: 285px;
+    text-indent: 40%;
+  }
+  /* Side Bar */
+
+  .side-bar {
+    background-color: #004e89;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 360px;
+    height: 790px;
+    top: -10px;
+    left: 332px;
+  }
+
+  .side-bar .mentor {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 105px;
+    top: 25px;
+    background-color: #004e89;
+    color: #f9f9f9;
+  }
+
+  .side-bar .mentor-name {
+    position: absolute;
+    width: 142px;
+    height: 29px;
+    left: 110px;
+    top: 177px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 29px;
+    background-color: #004e89;
+    color: #f9f9f9;
+  }
+
+  .edit .fa-pen,
+  .text {
+    background-color: #004e89;
+    color: #8b8899;
+    width: 17px;
+    padding: 5px;
+  }
+
+  .edit {
+    position: relative;
+    font-size: 13px;
+    bottom: 45px;
+    right: 5px;
+  }
+
+  .bio {
+    position: absolute;
+    width: 220px;
+    height: 160px;
+    left: 19px;
+    top: 250px;
+  }
+  .bio h4 {
+    background-color: #004e89;
+    color: #f9f9f9;
+    font-weight: bold;
+  }
+  .bio p {
+    background-color: #004e89;
+    color: #f9f9f9;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+  }
+
+  .courses {
+    background-color: #004e89;
+    position: absolute;
+    width: 250px;
+    left: 19px;
+    top: 445px;
+  }
+
+  .courses h4 {
+    background-color: #004e89;
+    color: #f9f9f9;
+  }
+
+  .courses-sub {
+    background-color: #004e89;
+    color: #f82508;
+    font-weight: normal;
+    font-size: 13px;
+  }
+
+  .curriculum {
+    background-color: #004e89;
+  }
+
+  .curriculum li {
+    background-color: #004e89;
+    color: #f9f9f9;
+    position: relative;
+    width: 245px;
+    left: 20px;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+  }
+
+  .availability {
+    position: absolute;
+    width: 250px;
+    height: 116px;
+    left: 19px;
+    top: 590px;
+  }
+
+  .availability h4 {
+    background-color: #004e89;
+    color: #f9f9f9;
+  }
+
+  .days1 {
+    background-color: #004e89;
+  }
+
+  .days1 li {
+    background-color: #004e89;
+    color: #f9f9f9;
+    position: relative;
+    width: 245px;
+    left: 20px;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+  }
+
+  .contact,
+  .fa-clock,
+  .fa-envelope,
+  .message1,
+  #a {
+    background-color: #004e89;
+    color: #ffffff;
+  }
+
+  .message1 {
+    position: relative;
+    top: 3px;
+    font-size: 20px;
+  }
+
+  .contact {
+    position: relative;
+    top: 211px;
+    font-size: 20px;
+    right: 10px;
+  }
+
+  .mentor-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #004e89;
+    width: 100px;
+  }
+
+  /* Middle Section */
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  /* Mentor Dashboard */
+
+  .primary-btn {
+    position: relative;
+    background: #f82508;
+    width: 197px;
+    height: 40px;
+    left: 40px;
+    bottom: 50px;
+    font-size: 13px;
+  }
+  button {
+    background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+    border-radius: 4px;
+    border: 1px solid;
+    cursor: pointer;
+    color: #ffffff;
+    display: inline;
+    text-align: center;
+    font-weight: bold;
+    width: 197px;
+    height: 40px;
+  }
+
+  .mentor-dashboard {
+    background: #eeeeee;
+    position: relative;
+    border-style: none;
+    width: 285px;
+    height: 600px;
+    top: 50px;
+    left: 370px;
+  }
+
+  .schedule-icons {
+    background: #eeeeee;
+    bottom: 25px;
+    font-size: 24px;
+    left: 17px;
+  }
+
+  .calendar-icon {
+    position: absolute;
+    background: #eeeeee;
+    font-size: 24px;
+    left: 20px;
+    top: 10px;
+  }
+
+  .calendar-icon p {
+    background-color: #eeeeee;
+  }
+
+  .schedule-text {
+    position: relative;
+    background: #eeeeee;
+    font-size: 16px;
+    font-weight: bold;
+    left: 25px;
+    bottom: 29px;
+  }
+
+  .edit-icon {
+    position: absolute;
+    background: #eeeeee;
+    font-size: 13px;
+    color: #8b8899;
+    left: 225px;
+    top: 5px;
+  }
+
+  .edit-icon .fa-pen {
+    position: absolute;
+    background: #eeeeee;
+    width: 29px;
+    right: 5px;
+    top: 16px;
+  }
+
+  .edit-icon p {
+    position: relative;
+    background: #eeeeee;
+    right: 5px;
+  }
+
+  .edit-text {
+    position: relative;
+    width: 50px;
+    background: #eeeeee;
+    left: 10px;
+    top: 15px;
+  }
+
+  .calendar {
+    position: absolute;
+    background-color: #eeeeee;
+    width: 150px;
+    height: 546px;
+    left: 70px;
+    top: 42px;
+  }
+
+  .days {
+    background-color: #eeeeee;
+    width: 100%;
+  }
+
+  .month {
+    background-color: #eeeeee;
+    width: 100%;
+  }
+
+  .month img,
+  .days img {
+    position: relative;
+    color: #f9f9f9;
+    width: 240px;
+    right: 50px;
+  }
+  .month img {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    width: 240px;
+  }
+  .days img {
+    position: relative;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    bottom: 5px;
+  }
+
+  .student-title {
+    background: #eeeeee;
+    position: absolute;
+    top: 355px;
+    left: 17px;
+  }
+
+  .student-title img {
+    background: #eeeeee;
+    font-size: 20px;
+  }
+
+  .student-messages {
+    background: #eeeeee;
+    position: relative;
+    left: 3px;
+    bottom: 6px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .dashboard-student {
+    position: absolute;
+    background: #ffffff;
+    border: solid;
+    border-radius: 5px;
+    border-style: none;
+    width: 245px;
+    height: 147px;
+    left: 17px;
+    top: 385px;
+  }
+
+  .student-info1 {
+    position: absolute;
+    flex-direction: column;
+    left: 90px;
+    top: 20px;
+  }
+
+  .dashboard-student img {
+    position: relative;
+    width: 70px;
+    left: 13px;
+    top: 12px;
+  }
+
+  .info1 span {
+    color: #f82508;
+  }
+
+  .dashboard-student h4 {
+    position: relative;
+    font-size: 15px;
+    bottom: 8px;
+  }
+
+  .dashboard-student .info1 {
+    position: relative;
+    font-size: 12px;
+    color: #180126;
+    bottom: 2px;
+  }
+
+  .reply {
+    background: #ffffff;
+    color: #514d57;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 12px;
+    width: 58px;
+    top: 38px;
+  }
+
+  .reply .fa-reply {
+    position: relative;
+    font-size: 16px;
+    bottom: 2px;
+  }
+
+  .reply .fa-clock {
+    position: relative;
+    background: #ffffff;
+    color: #514d57;
+    font-size: 14px;
+    bottom: 1px;
+  }
+
+  .reply-message {
+    position: absolute;
+    align-content: space-between;
+    color: #514d57;
+    width: 230px;
+    font-size: 13px;
+    line-height: 18px;
+    top: 470px;
+    left: 25px;
+  }
+
+  /* Students who need */
+
+  .need {
+    position: absolute;
+    height: 595px;
+    right: 850px;
+    top: 1602px;
+  }
+
+  .middle {
+    position: absolute;
+    background-color: #eeeeee;
+    width: 450px;
+    height: 575px;
+    top: 50px;
+    left: 150px;
+  }
+
+  .card1 img {
+    position: relative;
+    width: 70px;
+    left: 16px;
+    top: 12px;
+  }
+
+  .card1-info {
+    position: absolute;
+    left: 95px;
+    top: 25px;
+  }
+  .card1-info h4 {
+    position: relative;
+    bottom: 5px;
+    font-size: 16px;
+  }
+
+  .card1-info p {
+    font-size: 13px;
+  }
+
+  .card1-info span {
+    color: #f82508;
+  }
+
+  .card1-title h5 {
+    position: absolute;
+    color: #f82508;
+    width: 367px;
+    height: 22px;
+    font-size: 16px;
+    line-height: 22px;
+    left: 19px;
+    top: 85px;
+  }
+
+  .card1-title span {
+    position: relative;
+    color: #180126;
+  }
+
+  .card1-message {
+    position: absolute;
+    background: #c3c7d2;
+    border-radius: 8px;
+    width: 367px;
+    height: 122px;
+    left: 16px;
+    top: 110px;
+  }
+
+  .card1-message p {
+    background: #c3c7d2;
+  }
+
+  .card1-reply {
+    background: #c3c7d2;
+  }
+
+  .card1-text {
+    position: relative;
+    background: #c3c7d2;
+    color: #514d57;
+    width: 342px;
+    height: 81px;
+    left: 10px;
+    top: 5px;
+    font-size: 13px;
+    line-height: 18px;
+    initial-letter: -0.02em;
+  }
+
+  .card1-reply i {
+    position: relative;
+    display: inline-block;
+    background: #c3c7d2;
+    color: #514d57;
+    width: 25px;
+    font-size: 16px;
+    top: 16px;
+    left: 285px;
+  }
+
+  /* Card2 */
+
+  .primary-btn2 {
+    position: absolute;
+    font-size: 13px;
+    height: 40px;
+    width: 213px;
+    left: 265px;
+  }
+  .card2 {
+    position: relative;
+    background: #ffffff;
+    border-radius: 8px;
+    width: 401px;
+    height: 250px;
+    left: 24px;
+    top: 40px;
+  }
+
+  .card2 img {
+    position: relative;
+    width: 70px;
+    left: 16px;
+    top: 12px;
+  }
+
+  .card2-info {
+    position: absolute;
+    left: 95px;
+    top: 25px;
+  }
+  .card2-info h4 {
+    position: relative;
+    bottom: 5px;
+    font-size: 16px;
+  }
+
+  .card2-info p {
+    font-size: 13px;
+  }
+
+  .card2-info span {
+    color: #f82508;
+  }
+
+  .card2-title h5 {
+    position: absolute;
+    color: #f82508;
+    width: 367px;
+    height: 22px;
+    font-size: 16px;
+    line-height: 22px;
+    left: 19px;
+    top: 85px;
+  }
+
+  .card2-title span {
+    position: relative;
+    color: #180126;
+  }
+
+  .card2-message {
+    position: absolute;
+    background: #c3c7d2;
+    border-radius: 8px;
+    width: 367px;
+    height: 122px;
+    left: 16px;
+    top: 110px;
+  }
+
+  .card2-message p {
+    background: #c3c7d2;
+  }
+
+  .card2-text {
+    position: relative;
+    background: #c3c7d2;
+    color: #514d57;
+    width: 342px;
+    height: 81px;
+    left: 10px;
+    top: 5px;
+    font-size: 13px;
+    line-height: 18px;
+    initial-letter: -0.02em;
+  }
+
+  .card2-reply i {
+    position: relative;
+    display: inline-block;
+    background: #c3c7d2;
+    color: #514d57;
+    width: 25px;
+    font-size: 16px;
+    top: 133px;
+    left: 300px;
+  }
+
+  /* Students you have helped */
+
+  .have {
+    position: absolute;
+    width: 444px;
+    height: 605px;
+    top: 2284px;
+    left: 290px;
+  }
+
+  .primary-btn3 {
+    position: relative;
+    background-color: #004e89;
+    font-size: 13px;
+    width: 197px;
+    height: 40px;
+    bottom: 47px;
+    left: 130px;
+  }
+
+  .last-section {
+    position: relative;
+    background-color: #eeeeee;
+    width: 360px;
+    height: 593px;
+    bottom: 37px;
+  }
+
+  /* Card 3 */
+
+  .last-section {
+    position: relative;
+    background-color: #eeeeee;
+    width: 455px;
+    height: 593px;
+    bottom: 37px;
+  }
+
+  /* Card 3 */
+
+  .card3 {
+    position: absolute;
+    background: #ffffff;
+    border-radius: 8px;
+    width: 401px;
+    height: 100px;
+    left: 27px;
+    top: 6px;
+  }
+
+  .student3 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 14px;
+    top: 9px;
+  }
+
+  .card3-info {
+    position: absolute;
+    width: 280px;
+    height: 48px;
+    left: 95px;
+    top: 8px;
+    font-size: 13px;
+  }
+
+  .card3-info h4 {
+    font-size: 14px;
+  }
+
+  .card3-info span {
+    color: #f82508;
+  }
+
+  .card3-icons {
+    color: #8b8899;
+    position: absolute;
+    display: inline-block;
+    width: 240px;
+    top: 60px;
+    left: 100px;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+  }
+
+  .card3-icons .fa-envelope {
+    position: relative;
+    color: #8b8899;
+    background: #ffffff;
+    font-size: 18px;
+    left: 10px;
+    top: 2px;
+  }
+  .card3-icons span {
+    position: relative;
+    font-size: 13px;
+    left: 11px;
+  }
+
+  .card3-icons .notes {
+    position: relative;
+    top: 5px;
+  }
+
+  .card3-icons .message {
+    position: relative;
+    width: 18px;
+    left: 20px;
+    top: 5px;
+  }
+
+  .card3-icons .card3-text {
+    position: relative;
+    left: 20px;
+    top: -1px;
+    font-size: 13px;
+  }
+
+  /* Card4 */
+
+  .card4 {
+    position: absolute;
+    background: #ffffff;
+    border-radius: 8px;
+    width: 401px;
+    height: 100px;
+    left: 27px;
+    top: 125px;
+  }
+
+  .student4 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 14px;
+    top: 9px;
+  }
+
+  .card4-info {
+    position: absolute;
+    width: 280px;
+    height: 48px;
+    left: 95px;
+    top: 8px;
+    font-size: 13px;
+  }
+
+  .card4-info h4 {
+    font-size: 14px;
+  }
+
+  .card4-info span {
+    color: #f82508;
+  }
+
+  .card4-icons {
+    color: #8b8899;
+    position: absolute;
+    display: inline-block;
+    width: 240px;
+    top: 60px;
+    left: 100px;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+  }
+
+  .card4-icons .fa-envelope {
+    position: relative;
+    color: #8b8899;
+    background: #ffffff;
+    font-size: 18px;
+    left: 10px;
+    top: 2px;
+  }
+  .card4-icons span {
+    position: relative;
+    font-size: 13px;
+    left: 11px;
+  }
+
+  .card4-icons .notes {
+    position: relative;
+    top: 5px;
+  }
+
+  .card4-icons .message {
+    position: relative;
+    width: 18px;
+    left: 20px;
+    top: 5px;
+  }
+
+  .card4-icons .card4-text {
+    position: relative;
+    left: 20px;
+    top: -1px;
+    font-size: 13px;
+  }
+
+  /* Card 5 */
+
+  .card5 {
+    position: absolute;
+    background: #ffffff;
+    border-radius: 8px;
+    width: 401px;
+    height: 100px;
+    left: 27px;
+    top: 245px;
+  }
+
+  .student5 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 14px;
+    top: 9px;
+  }
+
+  .card5-info {
+    position: absolute;
+    width: 280px;
+    height: 48px;
+    left: 95px;
+    top: 8px;
+    font-size: 13px;
+  }
+
+  .card5-info h4 {
+    font-size: 14px;
+  }
+
+  .card5-info span {
+    color: #f82508;
+  }
+
+  .card5-icons {
+    color: #8b8899;
+    position: absolute;
+    display: inline-block;
+    width: 240px;
+    top: 60px;
+    left: 100px;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+  }
+
+  .card5-icons .fa-envelope {
+    position: relative;
+    color: #8b8899;
+    background: #ffffff;
+    font-size: 18px;
+    left: 10px;
+    top: 2px;
+  }
+  .card5-icons span {
+    position: relative;
+    font-size: 13px;
+    left: 11px;
+  }
+
+  .card5-icons .notes {
+    position: relative;
+    top: 5px;
+  }
+
+  .card5-icons .message {
+    position: relative;
+    width: 18px;
+    left: 20px;
+    top: 5px;
+  }
+
+  .card5-icons .card5-text {
+    position: relative;
+    left: 20px;
+    top: -1px;
+    font-size: 13px;
+  }
+
+  /* Card 6 */
+
+  .card6 {
+    position: absolute;
+    background: #ffffff;
+    border-radius: 8px;
+    width: 401px;
+    height: 100px;
+    left: 27px;
+    top: 365px;
+  }
+
+  .student6 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 14px;
+    top: 9px;
+  }
+
+  .card6-info {
+    position: absolute;
+    width: 280px;
+    height: 48px;
+    left: 95px;
+    top: 8px;
+    font-size: 13px;
+  }
+
+  .card6-info h4 {
+    font-size: 14px;
+  }
+
+  .card6-info span {
+    color: #f82508;
+  }
+
+  .card6-icons {
+    color: #8b8899;
+    position: absolute;
+    display: inline-block;
+    width: 240px;
+    top: 60px;
+    left: 100px;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+  }
+
+  .card6-icons .fa-envelope {
+    position: relative;
+    color: #8b8899;
+    background: #ffffff;
+    font-size: 18px;
+    left: 10px;
+    top: 2px;
+  }
+  .card5-icons span {
+    position: relative;
+    font-size: 13px;
+    left: 11px;
+  }
+
+  .card6-icons .notes {
+    position: relative;
+    top: 5px;
+  }
+
+  .card6-icons .message {
+    position: relative;
+    width: 18px;
+    left: 20px;
+    top: 5px;
+  }
+
+  .card6-icons .card6-text {
+    position: relative;
+    left: 20px;
+    top: -1px;
+    font-size: 13px;
+  }
+
+  /* Card 7 */
+
+  .card7 {
+    position: absolute;
+    background: #ffffff;
+    border-radius: 8px;
+    width: 401px;
+    height: 100px;
+    left: 27px;
+    top: 485px;
+  }
+
+  .student7 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 14px;
+    top: 9px;
+  }
+
+  .card7-info {
+    position: absolute;
+    width: 280px;
+    height: 48px;
+    left: 95px;
+    top: 8px;
+    font-size: 13px;
+  }
+
+  .card7-info h4 {
+    font-size: 14px;
+  }
+
+  .card7-info span {
+    color: #f82508;
+  }
+
+  .card7-icons {
+    color: #8b8899;
+    position: absolute;
+    display: inline-block;
+    width: 240px;
+    top: 60px;
+    left: 100px;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+  }
+
+  .card7-icons .fa-envelope {
+    position: relative;
+    color: #8b8899;
+    background: #ffffff;
+    font-size: 18px;
+    left: 10px;
+    top: 2px;
+  }
+  .card7-icons span {
+    position: relative;
+    font-size: 13px;
+    left: 11px;
+  }
+
+  .card7-icons .notes {
+    position: relative;
+    top: 5px;
+  }
+
+  .card7-icons .message {
+    position: relative;
+    width: 18px;
+    left: 20px;
+    top: 5px;
+  }
+
+  .card7-icons .card7-text {
+    position: relative;
+    left: 20px;
+    top: -1px;
+    font-size: 13px;
+  }
+}
