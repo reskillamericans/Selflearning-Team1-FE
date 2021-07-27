@@ -1,5 +1,4 @@
 body {
-  background-color: aqua;
   max-width: 1200vw;
 }
 
@@ -116,7 +115,6 @@ body {
   grid-template-rows: 1fr;
   width: 450px;
   height: 500px;
-  background-color: pink;
 }
 
 .icon {
@@ -341,6 +339,10 @@ body {
   width: 400px;
   position: relative;
   left: 450px;
+}
+
+.Bottom-Image {
+  width: 100%;
 }
 
 .tech4u-2 {
