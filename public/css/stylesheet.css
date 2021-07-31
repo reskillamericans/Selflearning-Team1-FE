@@ -2,6 +2,8 @@ body {
   max-width: 1200vw;
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
+  margin: 0px;
+  padding: 0px;
 }
 
 .header {
