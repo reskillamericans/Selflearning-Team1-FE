@@ -25,8 +25,20 @@ body {
   margin-left: 50px;
 }
 
+a {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
 a:active {
-  color: white;
+  color: blue;
 }
 
 .nav {
@@ -37,6 +49,7 @@ a:active {
   position: absolute;
   padding: auto;
   display: block;
+  font-weight: bold;
 }
 
 .con-1 {
@@ -484,4 +497,5 @@ a:active {
   margin-right: 50px;
   padding: auto;
   display: block;
+  font-weight: bold;
 }
