@@ -377,6 +377,19 @@ a:active {
   cursor: pointer;
 }
 
+.but-11 {
+  color: white;
+  background-color: #f82508;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  height: 40px;
+  width: 200px;
+  position: relative;
+  top: -81px;
+  left: 138px;
+  cursor: pointer;
+}
+
 .Bottom-Image {
   width: 100%;
   z-index: -1;
