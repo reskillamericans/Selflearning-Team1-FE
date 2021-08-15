@@ -1,6 +1,6 @@
 import React from "react";
-import MentorProfile from "./component/MentorProfile/MentorProfile";
-import CourseDetail from './component/CourseDetail/CourseDetail';
+// import MentorProfile from "./component/MentorProfile/MentorProfile";
+import CourseDetail from "./CourseDetail/CourseDetail";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
 function App() {
@@ -8,8 +8,8 @@ function App() {
     <div className="app">
       <Router>
         <Switch>
-          <Route exact path="/profile" component={MentorProfile} />
-          <Route exact path="/course-detail" component={CourseDetail} />
+          {/* <Route exact path="/profile" component={MentorProfile} /> */}
+          <Route exact path="/" component={CourseDetail} />
         </Switch>
       </Router>
     </div>
