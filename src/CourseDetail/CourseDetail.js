@@ -14,14 +14,15 @@ import API from "./images/API.svg";
 import Security from "./images/Security.svg";
 import Audits from "./images/Audits.svg";
 import "./CourseDetail.css";
+// import CourseDetail from "../../component/CourseDetail/CourseDetail";
 
-function App() {
+function CourseDetail() {
   return (
     <>
-      <div className="set">
-        <div className="container1">
+      <div className="course-set">
+        <div className="course-container1">
           <header>
-            <div id="logo">
+            <div id="course-logo">
               <img src={Group79} alt="Group79" />
             </div>
             <div>
@@ -47,13 +48,13 @@ function App() {
             </div>
           </header>
 
-          <div className="container2">
+          <div className="course-container2">
             <h1>Courses We Offer</h1>
           </div>
 
           <section>
-            <div className="container3">
-              <div className="box-1">
+            <div className="course-container3">
+              <div className="course-1">
                 <h3>
                   UX/UI
                   <br></br>
@@ -63,17 +64,17 @@ function App() {
                 <div className="image-content1">
                   <div className="Collab">
                     <img src={collaboration} alt="collaboration" />
-                    <h6>Collaboration</h6>
+                    <a href="a">Collaboration</a>
                   </div>
 
                   <div className="UX">
                     <img src={UX} alt="UX" />
-                    <h6>UX</h6>
+                    <a href="a">UX</a>
                   </div>
 
-                  <div>
+                  <div className="Testing">
                     <img src={Testing} alt="Testing" />
-                    <h6>Testing</h6>
+                    <a href="a">Testing</a>
                   </div>
                 </div>
 
@@ -92,7 +93,7 @@ function App() {
                 
               </div>
 
-              <div className="box-2">
+              <div className="course-2">
                 <h3>
                   COMPUTER
                   <br></br>
@@ -102,11 +103,11 @@ function App() {
                 <div className="image-content2">
                   <div className="Data">
                     <img src={Data} alt="Data" />
-                    <h6>Data Strutures</h6>
+                    <a href="a">Data Structures</a>
                   </div>
                   <div className="Databases">
                     <img src={Databases} alt="Databases" />
-                    <h6>Databases</h6>
+                    <a href="a">Databases</a>
                   </div>
                 </div>
                 <div>
@@ -120,7 +121,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="box-3">
+              <div className="course-3">
                 <h3>
                   DATABASE
                   <br></br>
@@ -130,15 +131,15 @@ function App() {
                 <div className="image-content3">
                   <div className="arc">
                     <img src={arc} alt="arc" />
-                    <h6>Architecture</h6>
+                    <a href="a">Architecture</a>
                   </div>
                   <div className="Access">
                     <img src={Accessibility} alt="Accessibility" />
-                    <h6>Accessibility</h6>
+                    <a href="a">Accessibility</a>
                   </div>
-                  <div>
+                  <div className="Design">
                     <img src={Design} alt="Design" />
-                    <h6>Design</h6>
+                    <a href="a">Design</a>
                   </div>
                 </div>
                 <div>
@@ -152,21 +153,21 @@ function App() {
                 </div>
               </div>
 
-              <div className="box-4">
+              <div className="course-4">
                 <h3>FRONTEND DEVELOPMENT</h3>
 
                 <div className="image-content4">
                   <div className="html">
                     <img src={HTML} alt="HTML" />
-                    <h6>HTML</h6>
+                    <a href="a">HTML</a>
                   </div>
                   <div className="java">
                     <img src={Java} alt="Java" />
-                    <h6>Javascript</h6>
+                    <a href="a">Javascript</a>
                   </div>
                   <div className="css">
                     <img src={CSS} alt="CSS" />
-                    <h6>CSS</h6>
+                    <a href="a">CSS</a>
                   </div>
                 </div>
                 <div>
@@ -182,7 +183,7 @@ function App() {
                 </div>
               </div>
 
-              <div className="box-5">
+              <div className="course-5">
                 <h3>
                   INFORMATION
                   <br></br>
@@ -191,15 +192,15 @@ function App() {
                 <div className="image-content5">
                   <div className="api">
                     <img src={API} alt="API" />
-                    <h6>API</h6>
+                    <a href="a">API</a>
                   </div>
                   <div className="security">
                     <img src={Security} alt="Security" />
-                    <h6>Security</h6>
+                    <a href="a">Security</a>
                   </div>
                   <div className="audits">
                     <img src={Audits} alt="Audits" />
-                    <h6>Audits</h6>
+                    <a href="a">Audits</a>
                   </div>
                 </div>
                 <div>
@@ -222,4 +223,4 @@ function App() {
   );
 }
 
-export default App;
+export default CourseDetail;

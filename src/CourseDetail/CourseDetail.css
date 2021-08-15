@@ -1,0 +1,395 @@
+body {
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.course-container1 {
+  position: relative;
+  width: 100%;
+}
+
+#course-logo {
+  padding-left: 60px;
+}
+
+nav {
+  padding-top: 20px;
+  justify-content: space-evenly;
+}
+
+header {
+  padding-top: 10px;
+  min-height: 70px;
+}
+
+header a {
+  color: #180126;
+  text-decoration: none;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+}
+:last-child
+.course-container1 ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+}
+
+nav a:active {
+  color: #072ac8;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+
+header nav {
+  float: right;
+  margin-top: -60px;
+}
+
+.course-container2 {
+  background: #514d57;
+  padding-left: 15px;
+}
+
+.course-container2 h1 {
+  color: #ffffff;
+  margin-top: 0px;
+}
+
+.course-container3 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  justify-content: space-around;
+}
+
+.image-content1,
+.image-content2,
+.image-content3,
+.image-content4,
+.image-content5 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.Collab {
+  text-align: center;
+}
+
+.Collab a{
+  display: block;
+  padding-top: 10px;
+}
+
+.UX {
+  text-align: center;
+}
+
+.UX a{
+  display: block;
+  padding-top: 10px;
+}
+
+.Testing {
+  text-align: center;
+}
+
+.Testing a{
+  display: block;
+  padding-top: 10px;
+}
+
+.Data{
+  text-align: center;
+}
+
+.Data a{
+  display: block;
+  padding-top: 10px;
+}
+
+.Databases{
+  text-align: center;
+}
+
+.Databases a{
+  display: block;
+  padding-top: 10px;
+}
+
+.arc{
+  text-align: center;
+}
+
+.arc a{
+  display: block;
+  padding-top: 10px;
+}
+
+.Access{
+  text-align: center;
+}
+
+.Access a{
+  display: block;
+  padding-top: 10px;
+}
+
+.Design{
+  text-align: center;
+}
+
+.Design a{
+  display: block;
+  padding-top: 10px;
+}
+
+.html{
+  text-align: center;
+}
+
+.html a{
+  display: block;
+  padding-top: 10px;
+}
+
+.java{
+  text-align: center;
+}
+
+.java a{
+  display: block;
+  padding-top: 10px;
+}
+
+.css{
+  text-align: center;
+}
+
+.css a{
+  display: block;
+  padding-top: 10px;
+}
+
+.api{
+  text-align: center;
+}
+
+.api a{
+  display: block;
+  padding-top: 10px;
+}
+
+.security {
+  text-align: center;
+}
+
+.security a{
+  display: block;
+  padding-top: 10px;
+}
+
+.audits{
+  text-align: center;
+}
+
+.audits a{
+  display: block;
+  padding-top: 10px;
+}
+
+button {
+  position: relative;
+  border-radius: 4px;
+  background-color: #f82508;
+  color: #ffffff;
+  height: 30px;
+  width: 100px;
+  margin-top: 5px;
+  margin-left: 100px;
+  text-align: center;
+  justify-content: center;
+}
+
+.course-1 {
+  background-color: #f2f1f1;
+  border-radius: 10px;
+  width: 300px;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+}
+
+.course-1 h3 {
+  color: #004e89;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  height: 90px;
+}
+
+.course-1 p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.course-2 {
+  background-color: #f2f1f1;
+  border-radius: 10px;
+  width: 300px;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+}
+
+.course-2 h3 {
+  color: #004e89;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  height: 90px;
+  padding-bottom: 10px;
+}
+
+.course-2 p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.course-3 {
+  background-color: #f2f1f1;
+  border-radius: 10px;
+  width: 300px;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+}
+
+.course-3 h3 {
+  color: #004e89;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  height: 90px;
+  padding-bottom: 10px;
+}
+
+.course-3 p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.course-4 {
+  background-color: #f2f1f1;
+  border-radius: 10px;
+  width: 300px;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+}
+
+.course-4 h3 {
+  color: #004e89;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  height: 90px;
+}
+
+.course-4 p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.course-5 {
+  background-color: #f2f1f1;
+  border-radius: 10px;
+  width: 300px;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+}
+
+.course-5 h3 {
+  color: #004e89;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  height: 90px;
+}
+
+.course-5 p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+/* @media screen and (max-width: 500px) {
+  .course-set {
+    display: block;
+  }
+  .course-container3 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-between;
+  }
+} */
