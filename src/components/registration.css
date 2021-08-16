@@ -245,7 +245,7 @@ width: 250px;
    align-items: center;
    color: #7E7A8F;
    top: 360px;
-   right: 538px;
+   left: 1px;
    width: 650px;
    height: 20px;
    white-space: nowrap;
@@ -258,11 +258,11 @@ width: 250px;
  }
 
 
- button {
+ .registrationb {
   position: absolute;
   width: 313px;
   height: 50px;
-  left: 1px;
+ left: 200px;
   top: 410px;
   background: #F82508;
   border-radius: 5px;

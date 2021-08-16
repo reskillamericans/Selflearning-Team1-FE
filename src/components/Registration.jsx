@@ -1,7 +1,9 @@
 import React from "react"
-import Group79 from "./registration-images/Group79.png"
-import BigPicture from "./registration-images/BigPicture.png"
+import Group79 from "../registration-images/Group79.png"
+import BigPicture from "../registration-images/BigPicture.png"
 import './registration.css'
+
+
 
 
 
@@ -30,7 +32,7 @@ function Registration() {
             <a href="#">Help</a>
           </li>
           <li>
-            <a href="#">Login</a>
+            <a href="/login">Login</a>
           </li>
         </ul>
 
@@ -129,7 +131,8 @@ function Registration() {
         <span>privacy policy.</span>
       </div>
     </div>
-    <button className="CreateAccount">Create Account</button>
+    {/* <button className="registrationb">Create Account</button> */}
+    <input className="registrationb" type="button" value="Create Account"></input>
      <p class="login">
       Already have an account?
       <span>Log In</span>
