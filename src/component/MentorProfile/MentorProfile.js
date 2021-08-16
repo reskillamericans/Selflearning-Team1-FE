@@ -61,7 +61,7 @@ function MentorProfile() {
 
         {/* Side Bar */}
         <section class="side-bar">
-          <img class="mentor" src={Mentor} alt="picture"/>
+          <img class="mentor" src={Mentor} alt="fallback"/>
           <h3 class="mentor-name">Mentor Name</h3>
 
           <div class="edit">
@@ -115,7 +115,7 @@ function MentorProfile() {
                 <i class="far fa-envelope"></i>
               </Link>
               <Link to="#" target="_blank">
-                <img class="message1" src={message1} alt="picture"/>
+                <img class="message1" src={message1} alt="fallback"/>
               </Link>
             </div>
           </div>
@@ -147,22 +147,22 @@ function MentorProfile() {
 
               <div class="calendar">
                 <div class="month">
-                  <img src={month} alt="picture"/>
+                  <img src={month} alt="fallback"/>
                 </div>
 
                 <div class="days">
-                  <img src={calendar} alt="picture"/>
+                  <img src={calendar} alt="fallback"/>
                 </div>
               </div>
 
               <div class="student-title">
-                <img src={message} alt="picture"/>
+                <img src={message} alt="fallback"/>
                 <span class="student-messages">Messages</span>
               </div>
 
               {/* Student Dashboard */}
               <div class="dashboard-student">
-                <img src={Student1} alt="picture"/>
+                <img src={Student1} alt="fallback"/>
 
                 <div class="student-info1">
                   <h4>Student Name </h4>
@@ -194,7 +194,7 @@ function MentorProfile() {
 
             <div class="middle">
               <div class="card1">
-                <img src={Student2} alt="picture"/>
+                <img src={Student2} alt="fallback"/>
 
                 <div class="card1-info">
                   <h4>Student Name</h4>
@@ -231,7 +231,7 @@ function MentorProfile() {
               {/* Card2 */}
 
               <div class="card2">
-                <img src={Student1} alt="picture"/>
+                <img src={Student1} alt="fallback"/>
 
                 <div class="card2-info">
                   <h4>Student Name</h4>
@@ -277,7 +277,7 @@ function MentorProfile() {
 
             <div class="last-section">
               <div class="card3">
-                <img class="student3" src={Student3} alt="picture"/>
+                <img class="student3" src={Student3} alt="fallback"/>
 
                 <div class="card3-info">
                   <h4>Student Name</h4>
@@ -290,17 +290,17 @@ function MentorProfile() {
                 </div>
 
                 <div class="card3-icons">
-                  <img class="notes" src={notes} alt="picture"/> Course Notes
+                  <img class="notes" src={notes} alt="fallback"/> Course Notes
                   <i class="far fa-envelope"></i>
                   <span> Email</span>
-                  <img class="message" src={message3} />{" "}
+                  <img class="message" src={message3} alt="fallback"/>{" "}
                   <span class="card3-text">Message</span>
                 </div>
               </div>
 
               {/* Card4 */}
               <div class="card4">
-                <img class="student4" src={Student4} alt="picture"/>
+                <img class="student4" src={Student4} alt="fallback"/>
 
                 <div class="card4-info">
                   <h4>Student Name</h4>
@@ -313,17 +313,17 @@ function MentorProfile() {
                 </div>
 
                 <div class="card4-icons">
-                  <img class="notes" src={notes} alt="picture"/> Course Notes
+                  <img class="notes" src={notes} alt="fallback"/> Course Notes
                   <i class="far fa-envelope"></i>
                   <span> Email</span>
-                  <img class="message" src={message3} alt="picture"/>{" "}
+                  <img class="message" src={message3} alt="fallback"/>{" "}
                   <span class="card4-text">Message</span>
                 </div>
               </div>
 
               {/* Card5 */}
               <div class="card5">
-                <img class="student5" src={Student5} alt="picture"/>
+                <img class="student5" src={Student5} alt="fallback"/>
 
                 <div class="card5-info">
                   <h4>Student Name</h4>
@@ -336,17 +336,17 @@ function MentorProfile() {
                 </div>
 
                 <div class="card5-icons">
-                  <img class="notes" src={notes} alt="picture"/> Course Notes
+                  <img class="notes" src={notes} alt="fallback"/> Course Notes
                   <i class="far fa-envelope"></i>
                   <span> Email</span>
-                  <img class="message" src={message3} alt="picture"/>{" "}
+                  <img class="message" src={message3} alt="fallback"/>{" "}
                   <span class="card5-text">Message</span>
                 </div>
               </div>
 
               {/* Card6 */}
               <div class="card6">
-                <img class="student6" src={Student6} alt="picture"/>
+                <img class="student6" src={Student6} alt="fallback"/>
 
                 <div class="card6-info">
                   <h4>Student Name</h4>
@@ -359,17 +359,17 @@ function MentorProfile() {
                 </div>
 
                 <div class="card6-icons">
-                  <img class="notes" src={notes} alt="picture"/> Course Notes
+                  <img class="notes" src={notes} alt="fallback"/> Course Notes
                   <i class="far fa-envelope"></i>
                   <span> Email</span>
-                  <img class="message" src={message3} alt="picture"/>{" "}
+                  <img class="message" src={message3} alt="fallback"/>{" "}
                   <span class="card6-text">Message</span>
                 </div>
               </div>
 
               {/* Card7 */}
               <div class="card7">
-                <img class="student7" src={Student7} alt="student" />
+                <img class="student7" src={Student7} alt="fallback" />
 
                 <div class="card7-info">
                   <h4>Student Name</h4>
