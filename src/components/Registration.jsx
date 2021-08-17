@@ -12,8 +12,8 @@ function Registration() {
   return (
     <>
 
-    <div className="app">
-      <div className="webnav">
+    <div className="Registration">
+      <div className="webnavR">
         <div className="logo">
           <img src={Group79} alt="tech4u logo"></img>
         </div>
@@ -39,19 +39,21 @@ function Registration() {
       </div>
     </div>
     <div className="mobilenav"></div>
-    <div className="header">
-      <h1>Welcome to Tech4U!</h1>
+    <div className="headerR1">
+      <h>Welcome to Tech4U!</h>
+    </div>
+    <div className="headerR2">
       <h2>Register here to become a mentor</h2>
     </div>
-    <div className="Container-1">
+    <div className="Container-1R">
       <img src={BigPicture}></img>
     </div>
-    <div className="backgroup">
+    <div className="backgroupR">
       <p class="Back">Back</p>
       <i class="back-arrow"></i>
     </div>
-    <div className="form-container">
-      <form id="form">
+    <div className="form-containerR">
+      <form id="formR">
         <div className="toplabels">
           <label id="lname" for="lname">Last Name</label>
           <label id="fname" for="fname">First Name</label>
@@ -81,7 +83,7 @@ function Registration() {
         <input type="text" id="cpwbox" name="cpw"></input>
       </div>
     </form>
-    <div className="agreement">
+    <div className="agreementR">
       <input type="checkbox" required name="checkbox" id="agree" value="check"></input>
          Yes, I understand and agree to TECH4U's
         <span>terms of service</span>
@@ -90,7 +92,7 @@ function Registration() {
          and 
         <span>privacy policy.</span>
     </div>
-    <button class="CreateAccount">Create Account</button>
+    <button class="CreateAccountR">Create Account</button>
     <p class="login">
       
       Already have an account?

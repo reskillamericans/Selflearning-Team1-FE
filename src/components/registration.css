@@ -13,7 +13,7 @@ body {
   overflow: hidden;
 }
 
-.webnav {
+.webnavR {
   display: flex;
   position: relative;
   align-items: center;
@@ -88,7 +88,7 @@ body {
   transform: rotate(135deg);
  }
 
- .backgroup {
+ .backgroupR {
   position: absolute;
   display: flex;
   align-items: center;
@@ -108,7 +108,7 @@ body {
  }
 
 
- h1 {
+ .headerR1 {
   position: absolute;
   display: inline-block;
   left: 660px;
@@ -121,7 +121,7 @@ body {
 
 }
 
- h2 {
+ .headerR2 {
   position: absolute;
   display: inline-block;
   left: 680px;
@@ -133,14 +133,14 @@ body {
   color: #7E7A8F;
  }
  
- .Container-1 img{
+ .Container-1R img{
   height: fit-content;
   max-width: 100%;
   width: 630px;
  }
  
 
- .form-container {
+ .form-containerR {
   display: flex;
   flex-direction: row;
   position: absolute;
@@ -239,13 +239,13 @@ width: 250px;
   width: 420px;
 }
 
- .agreement {
+ .agreementR {
    position: relative;
    display: flex;
    align-items: center;
    color: #7E7A8F;
    top: 360px;
-   left: 1px;
+   left: -540px;
    width: 650px;
    height: 20px;
    white-space: nowrap;
@@ -258,11 +258,11 @@ width: 250px;
  }
 
 
- .registrationb {
+ .CreateAccountR {
   position: absolute;
   width: 313px;
   height: 50px;
-  left: 200px;
+  left: 1px;
   top: 410px;
   background: #F82508;
   border-radius: 5px;
@@ -321,7 +321,7 @@ overflow-x: hidden;
     overflow-x: hidden;
   }
 
-  .form-container {
+  .form-containerR {
     display: none;
   }
 
@@ -341,14 +341,14 @@ overflow-x: hidden;
   
 }
 
-h1 {
+.headerR1 {
   top: 90px;
   font-size: 13px;
   left: 90px;
   color:rgb(12, 10, 10)
 }
 
-h2 {
+.headerR2 {
   top: 120px;
   left: 65px;
 }
@@ -380,7 +380,7 @@ padding: 10px;
   left: 35px;
 }
 
-.backgroup {
+.backgroupR {
   display: none;
 
 }
@@ -403,7 +403,7 @@ padding: 10px;
 
 
 
-button {
+.registrationb {
   width: 150px;
   height: 30px;
   font-size: 12px;
@@ -428,7 +428,7 @@ button {
   font-size: 10px;
 }
 
-.form {
+.formR {
   position: relative;
   top: 220px;
   left: 20px;
